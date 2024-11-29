@@ -23,15 +23,12 @@ export default function Home() {
 
   return (
     <div
-      className="flex items-center justify-center overflow-hidden"
+      className="flex flex-col items-center gap-4 justify-center overflow-hidden"
       style={{ height: windowHeight }}
     >
+      <p> Scratch to reveal location</p>
       <div className="w-full max-w-[300px] aspect-square">
-        <ScratchCard
-          imageUrl="https://images.unsplash.com/photo-1531956531700-dc0ee0f1f9a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=300&q=80"
-          width={300}
-          height={300}
-        />
+        <ScratchCard imageUrl="./logo.png" width={300} height={300} />
       </div>
     </div>
   );
