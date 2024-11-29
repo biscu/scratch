@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="w-screen h-svh">{children}</body>
+      <body className="w-screen h-svh touch-none	">{children}</body>
     </html>
   );
 }
