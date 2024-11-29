@@ -23,7 +23,7 @@ export default function Home() {
 
   return (
     <div
-      className="flex items-center justify-center bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 overflow-hidden"
+      className="flex items-center justify-center overflow-hidden"
       style={{ height: windowHeight }}
     >
       <div className="w-full max-w-[300px] aspect-square">
